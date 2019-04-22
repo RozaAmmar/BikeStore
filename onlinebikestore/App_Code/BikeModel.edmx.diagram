@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="613354fea59c4ad2b20122e9c54de0fd" Name="Diagram1">
+        <EntityTypeShape EntityType="MydbModel.Category" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MydbModel.Comment" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MydbModel.Customer" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MydbModel.Order" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MydbModel.OrdersDetail" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MydbModel.Product" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MydbModel.Rate" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="MydbModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="MydbModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="MydbModel.FK_Comments_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="MydbModel.FK_Comments_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="MydbModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="MydbModel.FK_OrdersDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="MydbModel.FK_OrdersDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="MydbModel.FK_Rates_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
