@@ -1,0 +1,4 @@
+1- Attach DataBase
+2- Modify Connectionstring 
+3- user name: admin
+password: admin  
